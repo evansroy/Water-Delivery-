@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Water Delivery</string>
+    <string name="pure_water">Pure Water</string>
+    <string name="we_deliver">We Deliver Health with Care</string>
+    <string name="sign_up">Sign up</string>
+    <string name="sign_in">Sign in</string>
 </resources>
