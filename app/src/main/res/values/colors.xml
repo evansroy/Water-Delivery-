@@ -9,5 +9,8 @@
     <color name="white">#FFFFFFFF</color>
 
     <color name="slash_blue">#303f9f</color>
+    <color name="pure_water_text">#0d8fd1</color>
+    <color name="theme_dark_gray">#878988</color>
+
 
 </resources>
