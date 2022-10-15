@@ -5,7 +5,7 @@
     <string name="sign_up">Sign up</string>
     <string name="sign_in">Sign in</string>
     <string name="email_address">Email Address</string>
-    <string name="welcome">Welcome,</string>
+    <string name="welcome">Welcome,Please create an Account to Enjoy Our Services</string>
     <string name="user_name">User Name</string>
     <string name="password">Password</string>
     <string name="mobile_number">Mobile Number</string>
@@ -14,4 +14,8 @@
     <string name="forgot_password">Forgot Password ?</string>
     <string name="logo">Logo</string>
     <string name="don_t_have_account_sign_up">Don\'t Have Account ? Sign Up</string>
+    <string name="go_back_and_sign_in">Go Back and Sign In</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="already_have_an_account_sign_in">Already Have an Account ? Sign In</string>
+    <string name="reset_your_password">Reset Your Password</string>
 </resources>

@@ -82,7 +82,7 @@ public class SignInActivity extends AppCompatActivity {
 
     public void forgotPasswordClicked(View view)
     {
-
+        startActivity(new Intent(this,ForgotPasswordActivity.class));
     }
 
     public void createAccountClicked(View view)
