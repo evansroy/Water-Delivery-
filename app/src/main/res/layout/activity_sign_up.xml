@@ -102,4 +102,18 @@
         app:layout_constraintStart_toStartOf="parent"
         android:visibility="gone"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtHaveAccountSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:onClick="signInClicked"
+        android:text="Already Have an Account ? Sign In"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/pure_water_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnSignUp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

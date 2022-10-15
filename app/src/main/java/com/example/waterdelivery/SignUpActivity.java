@@ -4,6 +4,7 @@ package com.example.waterdelivery;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
@@ -109,5 +110,10 @@ public class SignUpActivity extends AppCompatActivity {
                 progressBar.setVisibility(View.GONE);
             }
         });
+    }
+
+    public void signInClicked( View view)
+    {
+        startActivity(new Intent(this,SignInActivity.class));
     }
 }
