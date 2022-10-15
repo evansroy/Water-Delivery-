@@ -24,6 +24,6 @@ public class WelcomeActivity extends AppCompatActivity {
 
     public void onButtonSignInClicked(View view)
     {
-
+        startActivity(new Intent(WelcomeActivity.this,SignInActivity.class));
     }
 }

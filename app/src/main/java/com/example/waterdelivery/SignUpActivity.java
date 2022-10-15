@@ -1,8 +1,6 @@
 package com.example.waterdelivery;
 
-//import static com.example.waterdelivery.R.id.progress;
 
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;
@@ -13,11 +11,11 @@ import android.widget.ProgressBar;
 import android.widget.Toast;
 
 import com.example.waterdelivery.Models.User;
-import com.google.android.gms.tasks.OnCompleteListener;
-import com.google.android.gms.tasks.Task;
-import com.google.firebase.auth.AuthResult;
+
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.FirebaseDatabase;
+
+import java.util.Objects;
 
 public class SignUpActivity extends AppCompatActivity {
 
@@ -90,7 +88,7 @@ public class SignUpActivity extends AppCompatActivity {
                 User user = new User(txtUserName,txtPassword,txtMobileNo,txtEmail);
 
                 FirebaseDatabase.getInstance().getReference("User")
-                                .child(FirebaseAuth.getInstance().getCurrentUser().getUid())
+                                .child(Objects.requireNonNull(FirebaseAuth.getInstance().getCurrentUser()).getUid())
                                         .setValue(user).addOnCompleteListener(task1 -> {
 
                                             if (task1.isSuccessful())
