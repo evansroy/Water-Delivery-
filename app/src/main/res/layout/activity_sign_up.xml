@@ -87,6 +87,7 @@
         android:text="@string/sign_up"
         android:background="@drawable/button_signin"
         app:backgroundTint="@null"
+        android:onClick="signUpButtonClicked"
         app:layout_constraintEnd_toEndOf="@+id/etEmail"
         app:layout_constraintStart_toStartOf="@+id/etEmail"
         app:layout_constraintTop_toBottomOf="@+id/etEmail" />
