@@ -51,11 +51,12 @@
         android:layout_height="60dp"
         android:layout_marginStart="16dp"
         android:layout_marginBottom="40dp"
-        android:text="@string/sign_up"
-        android:onClick="onButtonSignUpClicked"
         android:background="@drawable/button_signup"
+        android:onClick="onButtonSignUpClicked"
+        android:text="@string/sign_up"
         app:backgroundTint="@null"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnSignIn"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
